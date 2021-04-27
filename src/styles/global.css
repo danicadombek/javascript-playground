@@ -18,6 +18,15 @@ body {
   background: skyblue;
 }
 
-.yellow {
-  background: yellow;
+.toggle-rotation {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.toggle-background {
+  background-color: olivedrab;
+}
+
+.toggle-radius {
+  border-radius: 50%;
 }
